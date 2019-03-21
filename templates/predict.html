@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prediction</title>
+  </head>
+  <body>
+    <div class=container>
+      <form method="POST">
+          {{ form.hidden_tag() }}
+          <ul>
+              <li>{{ form.g1.label }}{{ form.g1 }}</li>
+              <li>{{ form.g2.label }}{{ form.g2 }}</li>
+              <li>{{ form.g3.label }}{{ form.g3 }}</li>
+              <li>{{ form.g4.label }}{{ form.g4 }}</li>
+              <li>{{ form.g5.label }}{{ form.g5 }}</li>
+              <li>{{ form.g6.label }}{{ form.g6 }}</li>
+              <li>{{ form.g7.label }}{{ form.g7 }}</li>
+              <li>{{ form.g8.label }}{{ form.g8 }}</li>
+              <li>{{ form.g9.label }}{{ form.g9 }}</li>
+              <li>{{ form.g10.label }}{{ form.g10 }}</li>
+          </ul>
+          {{ form.submit }}
+      </form>
+    </div>
+  </body>
